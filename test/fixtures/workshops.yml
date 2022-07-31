@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  description: MyText
+  start_date: 2022-07-30
+  end_date: 2022-07-30
+  start_time: MyString
+  end_time: MyString
+  total_seats: 1
+  remaining_seats: 1
+  registration_fee: 1
+
+two:
+  name: MyString
+  description: MyText
+  start_date: 2022-07-30
+  end_date: 2022-07-30
+  start_time: MyString
+  end_time: MyString
+  total_seats: 1
+  remaining_seats: 1
+  registration_fee: 1
