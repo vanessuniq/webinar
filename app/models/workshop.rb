@@ -16,4 +16,8 @@ class Workshop < ApplicationRecord
               greater_than_or_equal_to: :start_date,
               message: "can not be before start date"
             }
+
+  def remaining_seats
+    self.total_seats - self.taken_seats
+  end
 end

@@ -9,7 +9,7 @@ class CreateWorkshops < ActiveRecord::Migration[7.0]
       t.string :end_time
       t.integer :total_seats
       t.integer :remaining_seats
-      t.integer :registration_fee
+      t.decimal :registration_fee, precision: 5, scale: 2
 
       t.timestamps
     end
